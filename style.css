@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "poppins-regular";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url("fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "readex-medium";
+    src: url("fonts/ReadexPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: "resagokr";
+    src: url("fonts/Resagokr.otf");
+}
+
+* {
+    font-family: "resagokr";
+}
+
+.text-size-11 {
+    font-size: 11px;
+}
+
+.text-size-13 {
+    font-size: 13px;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+.poiner {
+    cursor: pointer;
+}
+
+.scaleplus:hover {
+    transition-duration: 0.3s;
+    scale: 1.05;
+}
+
+.block__pic {
+    width: 300px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .map {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .map {
+        width: 800px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .map {
+        width: 650px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .map {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.dashboard-slider-hover:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.div-main-image {
+    z-index: 55555;
+}
+
+.add-images-hover {
+    z-index: 0;
+}
+
+.add-images-hover:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.add-images-hover::after {
+    transform: scale(1.0);
+    transition-duration: 1s;
+}
+
+.add-images-hover2:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
